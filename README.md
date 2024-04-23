@@ -45,4 +45,4 @@ Sinta-se à vontade para contribuir com o projeto! Basta seguir os passos:
 
 ---
 
-Esperamos que você aproveite a plataforma! 🚀
+Espero que você aproveite a plataforma! 🚀
