@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3.125rem;
+  height: 82vh;
+}
+
+.formDiv {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 23.75rem;
+  width: 100%;
+  height: auto;
+  gap: 1.375rem;
+  margin-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin: 0 auto;
+  background-color: var(--gray-3);
+}
+
+.formDiv input {
+  height: 3rem;
+  width: clamp(0px, 50vw, 329px);
+  border-radius: 0.25rem;
+  border: 0.0625rem solid var(--gray-0);
+  padding: 0 1rem;
+  background-color: var(--gray-2);
+  color: var(--gray-0);
+  margin: 0 auto;
+}
+
+.formDiv h3 {
+  color: var(--gray-0);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.formDiv label {
+  color: var(--gray-0);
+  margin-left: 0.6875rem;
+}
+
+.formDiv p {
+  color: var(--gray-1);
+}
+
+.formDiv .formSec {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.875rem;
+  gap: 1.375rem;
+  max-width: 19.6875rem;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  max-width: 18.75rem;
+  width: 100%;
+  height: 3rem;
+}
+
+.imgL {
+  margin-bottom: 1rem;
+  align-self: center;
+  margin-left: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 1rem;
+  }
+
+  .formDiv {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .formDiv input {
+    width: 100%;
+  }
+  
+  .formDiv .formSec {
+    max-width: 100%;
+  }
+  
+  a {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+.techCard {
+  margin: 25px;
+  list-style: none;
+  width: clamp(130px, 90%, 695px);
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  gap: 10px;
+  background-color: var(--gray-4);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  & button {
+    background-color: transparent;
+    border: none;
+    gap: 0.625rem;
+    padding: 0.3125rem;
+    cursor: pointer;
+  }
+}
+
+.contentDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: clamp(100px, 100%, 590px);
+  padding-left: 1rem;
+
+  & span {
+    color: var(--gray-1);
+  }
+
+  h3 {
+    color: var(--gray-0);
+  }
+}
+
+.cardButtons {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,62 @@
+.buttonPink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  border: none;
+  color: #ffffff;
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.buttonPink:hover {
+  background-color: var(--color-primary-hover);
+  cursor: pointer;
+}
+
+.buttonDisabled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  border: none;
+  color: #ffffff;
+  background-color: var(--color-primary-negative);
+  cursor: pointer;
+}
+
+.buttonGray {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: var(--gray-1);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buttonGray:hover {
+  background-color: var(--gray-0);
+  color: var(--gray-3);
+  cursor: pointer;
+}
+
+.buttonBlack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  border: none;
+  margin-top: 2rem;
+  background-color: var(--gray-2);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.loginButtons {
+  width: clamp(0px, 50vw, 324px);;
+  height: 3rem;
+  margin-top: 0.625rem;
+  margin: 0 auto;
+}
